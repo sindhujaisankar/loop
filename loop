@@ -1,0 +1,17 @@
+# loop
+#include<stdio.h>
+int main()
+{
+  int a,i,j,b;
+  a=0;
+  b=1;
+  for(i=0;i<=6;i++)
+  {
+    for(j=0;j<i;j++)
+    {
+      printf("%d%d",a,b);
+    }
+    printf("\n");
+  }
+  return 0;
+}
